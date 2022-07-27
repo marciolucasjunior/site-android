@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: rgba(176, 94, 253, 0.397);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    
+    font-size: 3em;
+    text-shadow: 6px 5px 5px black;
+    text-align: center;
+   
+}
+h2 {
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 0px;
+    
+    background-image: linear-gradient(to right,  rgba(255, 251, 0, 0.829),transparent);
+}
+
+h3 {
+    background-color: rgb(61, 25, 25);
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius:5px 5px 0px 0px;
+}
+header > p {
+    padding-bottom: 20px;
+    max-width: 500px;
+    margin: auto;
+    font-size: 1.2em;
+    text-shadow: 6px 5px 5px black;
+    text-align: center;
+}
+
+header > nav {
+
+
+    padding-bottom: 10px;
+}
+nav > a {
+  color: rgba(255, 251, 0, 0.829);
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 50px;
+  
+
+}
+
+header {
+    font-family: 'Bebas Neue', cursive;
+    min-width: 150px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom, red,
+    black
+    );
+    color: rgba(255, 251, 0, 0.829);
+     
+}
+
+nav a:hover {
+text-decoration: none;
+background-color: rgba(255, 251, 0, 0.829);
+ color: rgba(255, 0, 0, 0.829);
+border-radius: 5px;
+transition-duration:.5s ;
+
+}
+main {
+   margin: auto;
+   margin-bottom: 10px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   padding: 20px;
+   background-color: white; 
+   min-width: 300px;
+   max-width: 800px;
+   box-shadow: 2px 3px 20px 1px black;
+   
+}
+
+main a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: yellow;
+}
+footer {
+    font-size: 1.2em;
+    background-image: linear-gradient(to bottom, red,
+    black
+    );
+    color: rgba(255, 251, 0, 0.829);
+    text-align: center;
+    padding: 30px;
+}
+
+main  p {
+
+    text-align: justify;
+    
+    line-height:2em ;
+    font-size: 1,8em;
+}
+
+aside  {
+    
+    background-color: rgb(252, 101, 101) ;
+    border-radius: 5px;
+    margin: 10px;
+    text-indent: 10px;
+    box-shadow: 2px 4px 18px 1px black;
+   
+}
+
+aside p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul {
+    background-color: rgb(253, 136, 136) ;
+    columns: 2;
+
+}
+
+img {
+   width: 100%;
+}
+
+.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+div.video {
+
+    background-color: brown;
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-bottom: 59%;
+    position: relative;   
+}
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height:90%;
+    
+    
+
+
+}
